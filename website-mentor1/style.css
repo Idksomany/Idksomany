@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:rgb(0, 140, 255);
+}
+header{
+    justify-content: center;
+    align-items:center;
+    display:flex;
+    height:100px;
+    background-color:rgba(17,78,78)
+}
+header a,li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin:10px;
+    font-size: 20px;
+    color:#0af;
+    transition: 0.1s ease-in-out;
+}
+header a:hover{
+    opacity:0.8;
+}
+main{
+    display:flex;
+}
+.one {
+    margin:0px ;
+    height:100vh;
+    width:70vh;
+    background-color:orange;
+}
+.one img{
+    margin:20px 0px 0px 20px;
+}
+.one h3{
+    font-size: 30px;
+    margin: 30px 0px 30px 30px; 
+    color: white;
+}
+.one p{
+    margin: 30px 0px 30px 30px; 
+    color: white;
+}
+.one button{
+    color:orange;
+    height:40px;
+    width: 100px;
+    margin: 30px 0px 30px 30px; 
+    background-color:white;
+    border: 0px;
+    border-radius:2em;
+    cursor: pointer;
+    transition: 0.2s ease-in ;
+}
+.one button:hover{
+    background-color: rgb(224, 224, 224);
+}
+.one-r {
+    margin:0px ;
+    height:100vh;
+    width:70vh;
+    background-color:rgb(50, 17, 70);
+}
+.one-r img{
+    margin:20px 0px 0px 20px;
+}
+.one-r h3{
+    font-size: 30px;
+    margin: 30px 0px 30px 30px; 
+    color: white;
+}
+.one-r p{
+    margin: 30px 0px 30px 30px; 
+    color: white;
+}
+.one-r button{
+    color:rgb(50, 17, 70);;
+    height:40px;
+    width: 100px;
+    margin: 30px 0px 30px 30px; 
+    background-color:white;
+    border: 0px;
+    border-radius:2em;
+    cursor: pointer;
+    transition: 0.2s ease-in ;
+}
+.one-r button:hover{
+    background-color: rgb(224, 224, 224);
+}
+.one-t {
+    margin:0px ;
+    height:100vh;
+    width:70vh;
+    background-color:#0af;
+}
+.one-t img{
+    margin:20px 0px 0px 20px;
+}
+.one-t h3{
+    font-size: 30px;
+    margin: 30px 0px 30px 30px; 
+    color: white;
+}
+.one-t p{
+    margin: 30px 0px 30px 30px; 
+    color: white;
+}
+.one-t button{
+    color:#0af;
+    height:40px;
+    width: 100px;
+    margin: 30px 0px 30px 30px; 
+    background-color:white;
+    border: 0px;
+    border-radius:2em;
+    cursor: pointer;
+    transition: 0.2s ease-in ;
+}
+.one-t button:hover{
+    background-color: rgb(224, 224, 224);
+}
+
