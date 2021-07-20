@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-image: url("images/background-header.jpg");
+    background-position: center;
+    background-size: 1200px;
+    height:400px;
+}
+.header-h{
+    display: inline-block;
+    position: relative;
+    margin:30px 30px 0px 30px;
+    color:#fff;
+    font-size:30px;
+}
+nav li,a,button{
+    display:inline-block;
+    float: right;
+    position: relative;
+    flex-direction:row;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin:10px 10px 0px 10px;
+}
+nav button{
+    background-color: #fff;
+  border: none;
+  border-radius:50px;
+  color: #0af;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.container{
+    display:flex;
+    justify-content:space-between;
+}
+.first-section h3{
+    margin:50px 50px 0px 50px;
+    padding-top: 50px;
+    font-size:30px;
+}
+.first-section p{
+    font-size: 30px;
+    padding-top: 50px;
+    margin: 30px 50px 50px 50px;
+    color: gray;
+}
+.container-vtwo{
+    display:flex;
+    justify-content:space-between;
+}
+.second-section{
+    margin:50px 50px 0px -100px;
+}
+.second-section h3{
+    padding-top: 50px;
+    font-size:30px;
+}
+.second-section p{
+    font-size: 30px;
+    padding-top: 50px;
+    color: gray;
+}
+.all{
+    display:flex;
+    text-align:center;
+}
+.all h3,p{
+    color: grey;
+}
+.all h3{
+    color: rgb(82, 82, 82);
+    font-size:35px;
+}
+.all p{
+    font-size:20px;
+}
+.third-section {
+    background-image: url("/images/img-section3.jpg");
+    background-size: 1200px;
+    height:90vh;    
+    width: 50vw;
+}
+.third-section h3  {
+    margin:30px 0px 0px 0px;
+    padding-top: 250px;
+}
+.third-section p{
+    margin:30px 0px 0px 0px;
+}
+.third-sectionvtwo{
+    background-repeat: no-repeat;
+    background-image: url("/images/img-section4.jpg");
+    background-size: 1000px;
+    height:90vh;    
+    width: 50vw;
+}
+.third-sectionvtwo h3{
+        margin:30px 0px 0px 0px;
+        padding-top: 230px;
+}
+.third-sectionvtwo p{
+    margin:30px 0px 0px 0px;
+}
+footer{
+    background-color: rgba(0, 117, 175, 0.363);
+    height:35vh;
+}
+footer h3{
+    color: rgb(53, 53, 53);
+    font-size:30px;
+    text-align:center;
+    padding-top:60px;
+}
+.idk{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(87, 87, 87);
+    font-size:20px
+}
+.about,.services,.projects{
+    margin: 50px 50px 50px 50px;
+}
+.icons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.first-icon,.second-icon,.third-icon{
+    margin: 20px 50px 0px 0px;
+}
+
